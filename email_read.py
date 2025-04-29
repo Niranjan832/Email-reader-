@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 
 # Load Gmail API credentials
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
-creds = service_account.Credentials.from_service_account_file( "C:\\Users\\niranjan2002\\Downloads\\client_secret_978540749616-tbjqs4hn3ue9oj2nbmmdp58qevtp97hk.apps.googleusercontent.com.json", scopes=SCOPES)
+creds = service_account.Credentials.from_service_account_file( ""json file to be attached to access mail"json", scopes=SCOPES)
 
 # Connect to Gmail API
 service = build("gmail", "v1", credentials=creds)
